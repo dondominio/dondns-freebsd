@@ -27,9 +27,9 @@ Instalar el cliente de DonDominio (DonDNS)
 
   
 ```
-cp dondomcli.sh /usr/local/bin/
-chown dondomcli:dondomcli /usr/local/bin/dondomcli.sh
-chmod 755 /usr/local/bin/dondomcli.sh
+cp dondomcli.tcsh /usr/local/bin/
+chown dondomcli:dondomcli /usr/local/bin/dondomcli.tcsh
+chmod 755 /usr/local/bin/dondomcli.tcsh
 cp dondomcli.conf /usr/local/etc/
 chown dondomcli:dondomcli /usr/local/etc/dondomcli.conf
 chmod 600 /usr/local/etc/dondomcli.conf
