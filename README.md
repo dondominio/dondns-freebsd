@@ -46,7 +46,7 @@ set DDPASSWORD = "miAPIkey"
 set DDHOST = "misubdominio.midominio.com"
 ``` 
 
-Añade un trabajo CRON para que se horariamente con el usuario dondomcli:
+Añade un trabajo CRON para que se ejecute horariamente el script con el usuario dondomcli:
 
 ```
 echo '0 * * * * dondomcli /usr/local/bin/dondomcli.tcsh -c /usr/local/etc/dondomcli.conf' >> /etc/crontab
