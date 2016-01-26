@@ -12,7 +12,7 @@ setenv SHELL /bin/tcsh
 setenv PATH /etc:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin
 
 set DEFAULTCONFIG = "/usr/local/etc/dondomcli.conf"
-set APIURL = "https://dondns.dondominio.com/json/"
+set APIURL = "https://dondns.dondominio.com/plain/"
 set CURL = `which curl`
 set CURLOPT = " -A CurlFreeBSDDonDNS/1.1 --silent --insecure --data "
 set SED = `which sed`
